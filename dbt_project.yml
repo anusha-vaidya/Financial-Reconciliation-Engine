@@ -1,0 +1,17 @@
+name: 'financial_reconciliation_engine'
+version: '1.0'
+config-version: 2
+
+profile: 'default'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+
+models:
+  financial_reconciliation_engine:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
