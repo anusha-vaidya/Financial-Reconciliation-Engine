@@ -99,4 +99,104 @@ L0097,2024-01-20,480.00,USD,Customer payment recorded,A001,credit,T0097
 L0098,2024-01-20,580.00,USD,Customer payment recorded,A002,credit,T0098
 L0099,2024-01-20,-130.00,USD,Refund issued,A003,debit,T0099
 L0100,2024-01-20,1800.00,USD,Customer payment recorded,A004,credit,T0100
+L0101,2024-01-21,500.00,USD,Customer payment recorded,A005,credit,T0101
+L0102,2024-01-21,-135.00,USD,Vendor payout recorded,A001,debit,T0102
+L0103,2024-01-21,600.00,USD,Customer payment recorded,A002,credit,T0103
+L0104,2024-01-21,-140.00,USD,Refund issued,A003,debit,T0104
+L0105,2024-01-21,1900.00,USD,Customer payment recorded,A004,credit,T0105
+L0106,2024-01-22,520.00,USD,Customer payment recorded,A001,credit,T0106
+L0107,2024-01-22,-145.00,USD,Vendor payout recorded,A002,debit,T0107
+L0108,2024-01-22,620.00,USD,Customer payment recorded,A003,credit,T0108
+L0109,2024-01-22,2000.00,USD,Customer payment recorded,A004,credit,T0109
+L0110,2024-01-22,-280.00,USD,Vendor payout recorded,A005,debit,T0110
+L0111,2024-01-23,540.00,USD,Customer payment recorded,A001,credit,T0111
+L0112,2024-01-23,650.00,USD,Customer payment recorded,A002,credit,T0112
+L0113,2024-01-23,-150.00,USD,Refund issued,A003,debit,T0113
+L0114,2024-01-23,2100.00,USD,Customer payment recorded,A004,credit,T0114
+L0115,2024-01-23,-290.00,USD,Vendor payout recorded,A005,debit,T0115
+L0116,2024-01-24,560.00,USD,Customer payment recorded,A001,credit,T0116
+L0117,2024-01-24,-155.00,USD,Vendor payout recorded,A002,debit,T0117
+L0118,2024-01-24,680.00,USD,Customer payment recorded,A003,credit,T0118
+L0119,2024-01-24,2200.00,USD,Customer payment recorded,A004,credit,T0119
+L0120,2024-01-24,-300.00,USD,Vendor payout recorded,A005,debit,T0120
+L0121,2024-01-25,580.00,USD,Customer payment recorded,A001,credit,T0121
+L0122,2024-01-25,700.00,USD,Customer payment recorded,A002,credit,T0122
+L0123,2024-01-25,-160.00,USD,Refund issued,A003,debit,T0123
+L0124,2024-01-25,2300.00,USD,Customer payment recorded,A004,credit,T0124
+L0125,2024-01-25,-310.00,USD,Vendor payout recorded,A005,debit,T0125
+L0126,2024-01-26,600.00,USD,Customer payment recorded,A001,credit,T0126
+L0127,2024-01-26,-165.00,USD,Vendor payout recorded,A002,debit,T0127
+L0128,2024-01-26,720.00,USD,Customer payment recorded,A003,credit,T0128
+L0129,2024-01-26,2400.00,USD,Customer payment recorded,A004,credit,T0129
+L0130,2024-01-26,-320.00,USD,Vendor payout recorded,A005,debit,T0130
+L0131,2024-01-27,620.00,USD,Customer payment recorded,A001,credit,T0131
+L0132,2024-01-27,750.00,USD,Customer payment recorded,A002,credit,T0132
+L0133,2024-01-27,-170.00,USD,Refund issued,A003,debit,T0133
+L0134,2024-01-27,2500.00,USD,Customer payment recorded,A004,credit,T0134
+L0135,2024-01-27,-330.00,USD,Vendor payout recorded,A005,debit,T0135
+L0136,2024-01-28,640.00,USD,Customer payment recorded,A001,credit,T0136
+L0137,2024-01-28,-175.00,USD,Vendor payout recorded,A002,debit,T0137
+L0138,2024-01-28,780.00,USD,Customer payment recorded,A003,credit,T0138
+L0139,2024-01-28,2600.00,USD,Customer payment recorded,A004,credit,T0139
+L0140,2024-01-28,-340.00,USD,Vendor payout recorded,A005,debit,T0140
+L0141,2024-01-29,660.00,USD,Customer payment recorded,A001,credit,T0141
+L0142,2024-01-29,800.00,USD,Customer payment recorded,A002,credit,T0142
+L0143,2024-01-29,-180.00,USD,Refund issued,A003,debit,T0143
+L0144,2024-01-29,2700.00,USD,Customer payment recorded,A004,credit,T0144
+L0145,2024-01-29,-350.00,USD,Vendor payout recorded,A005,debit,T0145
+L0146,2024-01-30,680.00,USD,Customer payment recorded,A001,credit,T0146
+L0147,2024-01-30,-185.00,USD,Vendor payout recorded,A002,debit,T0147
+L0148,2024-01-30,820.00,USD,Customer payment recorded,A003,credit,T0148
+L0149,2024-01-30,2800.00,USD,Customer payment recorded,A004,credit,T0149
+L0150,2024-01-30,-360.00,USD,Vendor payout recorded,A005,debit,T0150
+L0151,2024-01-31,700.00,USD,Customer payment recorded,A001,credit,T0151
+L0152,2024-01-31,850.00,USD,Customer payment recorded,A002,credit,T0152
+L0153,2024-01-31,-190.00,USD,Refund issued,A003,debit,T0153
+L0154,2024-01-31,2900.00,USD,Customer payment recorded,A004,credit,T0154
+L0155,2024-01-31,-370.00,USD,Vendor payout recorded,A005,debit,T0155
+L0156,2024-02-01,720.00,USD,Customer payment recorded,A001,credit,T0156
+L0157,2024-02-01,-195.00,USD,Vendor payout recorded,A002,debit,T0157
+L0158,2024-02-01,880.00,USD,Customer payment recorded,A003,credit,T0158
+L0159,2024-02-01,3000.00,USD,Customer payment recorded,A004,credit,T0159
+L0160,2024-02-01,-380.00,USD,Vendor payout recorded,A005,debit,T0160
+L0161,2024-02-02,740.00,USD,Customer payment recorded,A001,credit,T0161
+L0162,2024-02-02,900.00,USD,Customer payment recorded,A002,credit,T0162
+L0163,2024-02-02,-200.00,USD,Refund issued,A003,debit,T0163
+L0164,2024-02-02,3100.00,USD,Customer payment recorded,A004,credit,T0164
+L0165,2024-02-02,-390.00,USD,Vendor payout recorded,A005,debit,T0165
+L0166,2024-02-03,760.00,USD,Customer payment recorded,A001,credit,T0166
+L0167,2024-02-03,-205.00,USD,Vendor payout recorded,A002,debit,T0167
+L0168,2024-02-03,920.00,USD,Customer payment recorded,A003,credit,T0168
+L0169,2024-02-03,3200.00,USD,Customer payment recorded,A004,credit,T0169
+L0170,2024-02-03,-400.00,USD,Vendor payout recorded,A005,debit,T0170
+L0171,2024-02-04,780.00,USD,Customer payment recorded,A001,credit,T0171
+L0172,2024-02-04,950.00,USD,Customer payment recorded,A002,credit,T0172
+L0173,2024-02-04,-210.00,USD,Refund issued,A003,debit,T0173
+L0174,2024-02-04,3300.00,USD,Customer payment recorded,A004,credit,T0174
+L0175,2024-02-04,-410.00,USD,Vendor payout recorded,A005,debit,T0175
+L0176,2024-02-05,800.00,USD,Customer payment recorded,A001,credit,T0176
+L0177,2024-02-05,-215.00,USD,Vendor payout recorded,A002,debit,T0177
+L0178,2024-02-05,980.00,USD,Customer payment recorded,A003,credit,T0178
+L0179,2024-02-05,3400.00,USD,Customer payment recorded,A004,credit,T0179
+L0180,2024-02-05,-420.00,USD,Vendor payout recorded,A005,debit,T0180
+L0181,2024-02-06,820.00,USD,Customer payment recorded,A001,credit,T0181
+L0182,2024-02-06,1000.00,USD,Customer payment recorded,A002,credit,T0182
+L0183,2024-02-06,-220.00,USD,Refund issued,A003,debit,T0183
+L0184,2024-02-06,3500.00,USD,Customer payment recorded,A004,credit,T0184
+L0185,2024-02-06,-430.00,USD,Vendor payout recorded,A005,debit,T0185
+L0186,2024-02-07,840.00,USD,Customer payment recorded,A001,credit,T0186
+L0187,2024-02-07,-225.00,USD,Vendor payout recorded,A002,debit,T0187
+L0188,2024-02-07,1020.00,USD,Customer payment recorded,A003,credit,T0188
+L0189,2024-02-07,3600.00,USD,Customer payment recorded,A004,credit,T0189
+L0190,2024-02-07,-440.00,USD,Vendor payout recorded,A005,debit,T0190
+L0191,2024-02-08,860.00,USD,Customer payment recorded,A001,credit,T0191
+L0192,2024-02-08,1050.00,USD,Customer payment recorded,A002,credit,T0192
+L0193,2024-02-08,-230.00,USD,Refund issued,A003,debit,T0193
+L0194,2024-02-08,3700.00,USD,Customer payment recorded,A004,credit,T0194
+L0195,2024-02-08,-450.00,USD,Vendor payout recorded,A005,debit,T0195
+L0196,2024-02-09,880.00,USD,Customer payment recorded,A001,credit,T0196
+L0197,2024-02-09,-235.00,USD,Vendor payout recorded,A002,debit,T0197
+L0198,2024-02-09,1080.00,USD,Customer payment recorded,A003,credit,T0198
+L0199,2024-02-09,3800.00,USD,Customer payment recorded,A004,credit,T0199
+L0200,2024-02-09,-460.00,USD,Vendor payout recorded,A005,debit,T0200
 
