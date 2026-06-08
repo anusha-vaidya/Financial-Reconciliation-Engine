@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_payouts
+    columns:
+      - name: payout_id
+        tests:
+          - unique
+          - not_null
+
+      - name: payout_date
+        tests:
+          - not_null
+
+      - name: net_amount
+        tests:
+          - not_null
+
+      - name: related_transaction_id
+        tests:
+          - relationships:
+              to: ref('stg_bank_transactions')
+              field: transaction_id
+              config:
+                severity: warn
