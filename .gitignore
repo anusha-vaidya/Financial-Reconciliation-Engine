@@ -1,0 +1,22 @@
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+
+# Python / virtual env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# SQLite database
+*.db
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
