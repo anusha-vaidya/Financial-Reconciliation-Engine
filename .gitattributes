@@ -1,2 +1,2 @@
 *.sql linguist-language=SQL
-*.yml linguist-language=SQL
+*.yml linguist-language=YAML
