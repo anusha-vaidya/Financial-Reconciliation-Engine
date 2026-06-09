@@ -8,7 +8,7 @@ with source as (
         cast(net_amount as numeric) as net_amount,
         currency,
         account_id,
-        related_transaction_id
+        transaction_id
     from {{ ref('payouts') }}
 
 ),
@@ -23,7 +23,7 @@ cleaned as (
         net_amount,
         currency,
         account_id,
-        related_transaction_id
+        transaction_id
     from source
 
 )
