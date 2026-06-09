@@ -1,4 +1,4 @@
-{{ config(materialized='view') }}
+
 
 with bank as (
     select
@@ -7,7 +7,7 @@ with bank as (
         amount as bank_amount,
         account_id,
         transaction_type
-    from {{ ref('stg_bank_transactions') }}
+    from main."stg_bank_transactions"
 ),
 
 ledger as (
@@ -18,7 +18,7 @@ ledger as (
         account_id,
         entry_type,
         reference_id
-    from {{ ref('stg_ledger_entries') }}
+    from main."stg_ledger_entries"
 )
 
 select

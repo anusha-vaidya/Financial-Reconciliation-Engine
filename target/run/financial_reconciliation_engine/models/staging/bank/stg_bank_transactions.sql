@@ -1,4 +1,7 @@
-{{ config(materialized='view') }}
+
+    
+    create view main."stg_bank_transactions" as
+    
 
 with source as (
     select
@@ -9,7 +12,7 @@ with source as (
         description,
         account_id,
         transaction_type
-    from {{ ref('bank_transactions') }}
+    from main."bank_transactions"
 ),
 
 cleaned as (
@@ -32,4 +35,4 @@ select
     description,
     account_id,
     transaction_type
-from cleaned
+from cleaned;

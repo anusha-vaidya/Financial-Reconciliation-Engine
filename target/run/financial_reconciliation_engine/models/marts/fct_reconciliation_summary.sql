@@ -1,4 +1,10 @@
-{{ config(materialized='table') }}
+
+  
+    
+    
+    create  table main."fct_reconciliation_summary"
+    as
+        
 
 with combined as (
 
@@ -21,7 +27,7 @@ with combined as (
             when ledger_amount is not null then 'matched'
             else 'unmatched'
         end as reconciliation_status
-    from {{ ref('int_reconciliation_bank_ledger') }}
+    from main."int_reconciliation_bank_ledger"
 
     union all
 
@@ -44,9 +50,11 @@ with combined as (
             when transaction_id is not null then 'matched'
             else 'unmatched'
         end as reconciliation_status
-    from {{ ref('int_reconciliation_payouts') }}
+    from main."int_reconciliation_payouts"
 
 )
 
 select *
 from combined
+
+  

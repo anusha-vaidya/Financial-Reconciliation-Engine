@@ -1,4 +1,7 @@
-{{ config(materialized='view') }}
+
+    
+    create view main."int_reconciliation_bank_ledger" as
+    
 
 with bank as (
     select
@@ -7,7 +10,7 @@ with bank as (
         amount as bank_amount,
         account_id,
         transaction_type
-    from {{ ref('stg_bank_transactions') }}
+    from main."stg_bank_transactions"
 ),
 
 ledger as (
@@ -18,7 +21,7 @@ ledger as (
         account_id,
         entry_type,
         reference_id
-    from {{ ref('stg_ledger_entries') }}
+    from main."stg_ledger_entries"
 )
 
 select
@@ -32,4 +35,4 @@ select
     ledger.reference_id as reference_id
 from bank
 left join ledger
-    on bank.transaction_id = ledger.reference_id
+    on bank.transaction_id = ledger.reference_id;

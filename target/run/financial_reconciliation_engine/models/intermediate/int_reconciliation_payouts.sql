@@ -1,4 +1,7 @@
-{{ config(materialized='view') }}
+
+    
+    create view main."int_reconciliation_payouts" as
+    
 
 with payouts as (
     select
@@ -10,7 +13,7 @@ with payouts as (
         currency,
         account_id,
         transaction_id
-    from {{ ref('stg_payouts') }}
+    from main."stg_payouts"
 )
 
 select
@@ -28,4 +31,4 @@ select
     payouts.fee_amount as fee_amount,
     payouts.net_amount as net_amount,
     payouts.currency as currency
-from payouts
+from payouts;

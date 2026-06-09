@@ -1,4 +1,4 @@
-{{ config(materialized='view') }}
+
 
 with source as (
     select
@@ -9,7 +9,7 @@ with source as (
         description,
         account_id,
         transaction_type
-    from {{ ref('bank_transactions') }}
+    from main."bank_transactions"
 ),
 
 cleaned as (

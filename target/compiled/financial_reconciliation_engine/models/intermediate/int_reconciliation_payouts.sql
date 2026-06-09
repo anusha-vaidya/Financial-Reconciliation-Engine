@@ -1,4 +1,4 @@
-{{ config(materialized='view') }}
+
 
 with payouts as (
     select
@@ -10,7 +10,7 @@ with payouts as (
         currency,
         account_id,
         transaction_id
-    from {{ ref('stg_payouts') }}
+    from main."stg_payouts"
 )
 
 select
