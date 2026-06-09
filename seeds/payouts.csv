@@ -1,4 +1,4 @@
-payout_id,payout_date,gross_amount,fee_amount,net_amount,currency,account_id,related_transaction_id
+payout_id,payout_date,gross_amount,fee_amount,net_amount,currency,account_id,transaction_id
 P0001,2024-01-02,150.00,3.00,147.00,USD,A001,T0001
 P0002,2024-01-02,320.00,6.40,313.60,USD,A002,T0003
 P0003,2024-01-02,210.00,4.20,205.80,USD,A004,T0005
