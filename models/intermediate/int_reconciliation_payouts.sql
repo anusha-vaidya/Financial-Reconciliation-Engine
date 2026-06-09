@@ -13,7 +13,7 @@ payouts as (
         payout_date,
         net_amount,
         account_id,
-        related_transaction_id
+        transaction_id
     from {{ ref('stg_payouts') }}
 ),
 
@@ -31,7 +31,7 @@ joined as (
         end as payout_status
     from payouts p
     left join bank b
-        on p.related_transaction_id = b.transaction_id
+        on p.transaction_id = b.transaction_id
         and p.account_id = b.account_id
 )
 
